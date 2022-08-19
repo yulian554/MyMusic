@@ -5,9 +5,13 @@
       <map>
         <entry key="app/src/main/res/drawable-v24/background_home.xml" value="0.2185" />
         <entry key="app/src/main/res/drawable/background_home.xml" value="0.339" />
+        <entry key="app/src/main/res/drawable/background_home_.xml" value="0.339" />
+        <entry key="app/src/main/res/drawable/backgrount_home_top.xml" value="0.339" />
+        <entry key="app/src/main/res/drawable/decoration_circle_home.xml" value="0.339" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.24320652173913043" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.3858695652173913" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.37447916666666664" />
+        <entry key="app/src/main/res/layout/item_music_home.xml" value="0.3858695652173913" />
       </map>
     </option>
   </component>
