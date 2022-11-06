@@ -4,14 +4,37 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable-v24/background_home.xml" value="0.2185" />
+        <entry key="app/src/main/res/drawable-v24/background_modal.xml" value="0.3105" />
+        <entry key="app/src/main/res/drawable-v24/background_nav_bottom.xml" value="0.198" />
+        <entry key="app/src/main/res/drawable-v24/ic_close.xml" value="0.3105" />
+        <entry key="app/src/main/res/drawable/background_card_artists_favorite_home.xml" value="0.1915" />
+        <entry key="app/src/main/res/drawable/background_circle_splash.xml" value="0.2845" />
+        <entry key="app/src/main/res/drawable/background_create_account.xml" value="0.301" />
+        <entry key="app/src/main/res/drawable/background_edit_text.xml" value="0.2845" />
         <entry key="app/src/main/res/drawable/background_home.xml" value="0.339" />
         <entry key="app/src/main/res/drawable/background_home_.xml" value="0.339" />
+        <entry key="app/src/main/res/drawable/background_home_bottom.xml" value="0.2845" />
+        <entry key="app/src/main/res/drawable/background_login_register.xml" value="0.2845" />
+        <entry key="app/src/main/res/drawable/background_modal.xml" value="0.3105" />
+        <entry key="app/src/main/res/drawable/background_nav_bottom.xml" value="0.198" />
         <entry key="app/src/main/res/drawable/backgrount_home_top.xml" value="0.339" />
         <entry key="app/src/main/res/drawable/decoration_circle_home.xml" value="0.339" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2845" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.3875" />
+        <entry key="app/src/main/res/layout/activity_login_register.xml" value="0.4174649047851563" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.24320652173913043" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.3858695652173913" />
+        <entry key="app/src/main/res/layout/error_login_dialog.xml" value="0.37310195227765725" />
+        <entry key="app/src/main/res/layout/fragment_authentication.xml" value="0.3885416666666667" />
+        <entry key="app/src/main/res/layout/fragment_authentication_login.xml" value="0.19630192502532928" />
+        <entry key="app/src/main/res/layout/fragment_create_account.xml" value="0.33" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.37447916666666664" />
+        <entry key="app/src/main/res/layout/fragment_login_register.xml" value="0.3858695652173913" />
+        <entry key="app/src/main/res/layout/item_artists_favorite_home.xml" value="0.3885416666666667" />
         <entry key="app/src/main/res/layout/item_music_home.xml" value="0.3858695652173913" />
+        <entry key="app/src/main/res/layout/loading_dialog.xml" value="0.16394927536231885" />
+        <entry key="app/src/main/res/layout/login_home_fragment.xml" value="0.3885416666666667" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
       </map>
     </option>
   </component>

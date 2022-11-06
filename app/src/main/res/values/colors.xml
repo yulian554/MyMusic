@@ -8,12 +8,13 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <!-- Colors-->
-    <color name="background_splash">#66925BF5</color>
-    <color name="background_home">#171030</color>
     <color name="transparent">#00000000</color>
-    <color name="background_item_music_home">#D8202A42</color>
-    <color name="background_top_home">#0C142C</color>
-    <color name="background_center_home">#17233B</color>
-    <color name="background_bottom_home">#152745</color>
+    <color name="transparent_login_medium">#A8000000</color>
+    <color name="transparent_login_black">#DA000000</color>
+    <color name="background_button_login_register">#DD2246</color>
+    <color name="color_background_card_favorites">#171717</color>
+    <color name="text_hind">#918D8D</color>
+    <color name="background_edit_text_crate_account">#313131</color>
+    <color name="text_error_password_create_account">#ACA9A9</color>
 
 </resources>

@@ -1,10 +1,12 @@
 package com.example.mymusic.view.activity
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.mymusic.databinding.ActivitySplashBinding
 
+@SuppressLint("CustomSplashScreen")
 class SplashActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivitySplashBinding
@@ -13,13 +15,13 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivitySplashBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        initNavigateToMainActivity()
+        initNavigateToLoginActivity()
     }
 
-    private fun initNavigateToMainActivity() {
+    private fun initNavigateToLoginActivity() {
         binding.imageSplash.alpha = 0f
         binding.imageSplash.animate().setDuration(2000).alpha(1f).withEndAction{
-            startActivity(Intent(this, MainActivity::class.java))
+            startActivity(Intent(this, AuthenticationActivity::class.java))
             finish()
         }
     }

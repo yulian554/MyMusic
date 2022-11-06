@@ -30,6 +30,10 @@
             android:name=".view.activity.MainActivity"
             android:theme="@style/Theme.MyMusic">
         </activity>
+        <activity
+            android:name=".view.activity.AuthenticationActivity"
+            android:theme="@style/Theme.MyMusic">
+        </activity>
     </application>
 
 </manifest>

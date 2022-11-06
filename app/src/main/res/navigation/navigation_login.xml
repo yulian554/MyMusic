@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_music.xml"
+    app:startDestination="@id/loginHomeFragment">
+
+    <fragment
+        android:id="@+id/loginHomeFragment"
+        android:name="com.example.mymusic.view.fragment.LoginHomeFragment"
+        android:label="LoginHomeFragment"
+        tools:layout="@layout/login_home_fragment">
+        <action
+            android:id="@+id/action_loginHomeFragment_to_createAccountFragment"
+            app:destination="@id/createAccountFragment" />
+        <action
+            android:id="@+id/action_loginHomeFragment_to_authenticationFragment"
+            app:destination="@id/authenticationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/createAccountFragment"
+        android:name="com.example.mymusic.view.fragment.CreateAccountFragment"
+        android:label="CreateAccountFragment"
+        tools:layout="@layout/fragment_create_account">
+        <action
+            android:id="@+id/action_createAccountFragment_to_authenticationFragment"
+            app:destination="@id/authenticationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/authenticationFragment"
+        android:name="com.example.mymusic.view.fragment.AuthenticationLoginFragment"
+        android:label="AuthenticationFragment"
+        tools:layout="@layout/fragment_authentication_login"/>
+
+</navigation>

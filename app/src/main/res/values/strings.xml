@@ -1,5 +1,37 @@
 <resources>
     <string name="app_name">MyMusic</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="title_home">MyMusicApp</string>
+
+    <!-- text button generic -->
+    <string name="general_accept">Aceptar</string>
+    <string name="general_next">Siguiente</string>
+    <!-- my string -->
+    <string name="text_welcome_login">Bienvenido(a)</string>
+    <string name="text_sub_title_login">Regístrate gratis\no inicia sesión</string>
+    <string name="hint_text_login_register">correo electrónico o número de teléfono</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="view_divider_center_login">o</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="login_from_google">Continuar con Google</string>
+    <string name="login_from_facebook">Continuar con Facebook</string>
+    <string name="image_default">image default</string>
+
+    <!-- login -->
+    <string name="title_dialog_error_login">Oops, algo salió mal.</string>
+    <string name="sub_title_dialog_error_login">Parece que ingrezaste un dato erroneo, verifica tus datos o intentalo mas tarde.</string>
+    <string name="text_title_create_account">Crear Cuenta</string>
+    <string name="text_title_create_account_email">Ingresa tu email</string>
+    <string name="text_title_create_account_password">Crea una contraseña</string>
+    <string name="text_password">Contraseña</string>
+
+    <!-- bottom navigate -->
+    <string name="str_nav_home">Inicio</string>
+    <string name="str_nav_search">Buscar</string>
+    <string name="str_nav_library">Biblioteca</string>
+
+    <!-- bottom navigate -->
+    <string name="title_home">¡Bienvenido!</string>
+    <string name="artists_favorites">Artistas favoritos</string>
+    <string name="title_play_list">Play list</string>
+    <string name="min_character_create_password">8 caracteres mín.</string>
+
 </resources>

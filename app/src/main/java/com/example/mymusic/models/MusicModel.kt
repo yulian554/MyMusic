@@ -1,7 +1,8 @@
 package com.example.mymusic.models
 
 data class MusicModel(
-    val songs: List<Song>? = null
+    val data: List<Song>? = null,
+    val message: String? = null
 )
 
 data class Song(
